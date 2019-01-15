@@ -4,11 +4,22 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+
+/*
+* Question is {"P","E","R","F","E","C","T"," ","M","A","K","E"," ","P","R","A","C","T","I","C","E"} is an array I have to make it
+* {"P","R","A","C","T","I","C","E"," ","M","A","K","E"," "P","E","R","F","E","C","T"}
+*
+* I have Finally solved it but I am getting extra space in my answer
+* PRACTICE MAKE  PERFECT
+*
+* help me out with this
+* */
+
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        String values[] = {"P","E","R","F","E","C","T"," ","M","A","K","E"," ","P","R","A","C","T","I","C","E"," ","M","A","N"};
+        String values[] = {"P","E","R","F","E","C","T"," ","M","A","K","E"," ","P","R","A","C","T","I","C","E"};
         int lastLength = 0;
         int initialLength = 0;
         List<String> newValue = new ArrayList<>();
