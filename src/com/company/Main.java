@@ -15,6 +15,12 @@ import java.util.Stack;
 * help me out with this
 * and suggest me better solution
 * Thank You!!
+*
+* What I actually did At first i get position of space from array into the stack including 0;
+* after that i pop the element from stack and set it to initialLength and the lastLength to length of array
+* and using for loop it irritate from initialLength+1 to lastLength and the values are added in list
+* after completing loop i set lastLength = initialLength+1;
+*
 * */
 
 public class Main {
